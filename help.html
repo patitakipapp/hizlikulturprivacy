@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destek — Hızlı Kültür</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root { --black: #0a0a0a; --white: #f5f4f0; --mid: #888; --border: #d0cfc9; }
+
+  html, body { height: 100%; }
+
+  body {
+    font-family: 'IM Fell English', Georgia, serif;
+    background: var(--white);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 24px;
+  }
+
+  .container {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--mid);
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 40px;
+  }
+
+  .divider {
+    width: 40px;
+    height: 1px;
+    background: var(--black);
+    margin: 0 auto 40px;
+  }
+
+  a.mail {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;
+    color: var(--black);
+    text-decoration: none;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 2px;
+    letter-spacing: 0.03em;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  a.mail:hover { color: var(--mid); border-color: var(--mid); }
+
+  footer {
+    margin-top: 64px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--mid);
+    letter-spacing: 0.08em;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="site-name">Hızlı Kültür</div>
+  <h1>Destek</h1>
+  <div class="divider"></div>
+  <p>Uygulama ile ilgili soru, öneri veya sorun bildirimi için bize yazabilirsiniz.</p>
+  <a class="mail" href="mailto:gaye.app.contact@gmail.com">gaye.app.contact@gmail.com</a>
+  <footer>&copy; 2026 Hızlı Kültür</footer>
+</div>
+</body>
+</html>
